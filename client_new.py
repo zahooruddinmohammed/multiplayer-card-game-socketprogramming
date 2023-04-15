@@ -14,6 +14,7 @@ client.send("Hello, server!".encode())
 # Receive data from the server
 response = client.recv(1024)
 print(response.decode())
+print("hello")
 
 # Close the connection
 client.close()
